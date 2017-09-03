@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>资讯</title>
+    <link rel="shortcut icon" href="picture/icon.png">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/jquery-1.11.2.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container nav-index">
+    <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 logo-box"><img src="images/logo.png" alt="" width="100%" id="logopicture" style="margin-top: 8px;"></div>
+        <div class="hidden-xs col-sm-12 col-md-9 col-lg-9 nav-box">
+            <ul class="nav">
+                <a href="index.html"><li style="width: 11%;">首页</li></a>
+                <a href="webcolem.html"><li style="width: 15%">走进九宫山</li></a>
+                <a href="scenery.html"><li>园区风水</li></a>
+                <a href="lookout.html"><li>园区景观</li></a>
+                <a href="tomb.html"><li style="width: 11%">墓型</li></a>
+                <a href="innovate.html"><li>节地创新</li></a>
+                <a href="news.html"><li style="width: 11%; background-color: #4FCFDC;color: #fff">资讯</li></a>
+                <a href="abut.html"><li style="margin-right: 0">联系我们</li></a>
+            </ul>
+        </div>
+        <div class="col-xs-2 hidden-sm hidden-md hidden-lg" style="float: right;">
+            <div class="navv nav-hamburger pull-right">
+                <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+                <ul class="dropdown-menu pull-right menub">
+                    <a href="index.html"><li style="">首页</li></a>
+                    <a href="webcolem.html"><li style="">走进九宫山</li></a>
+                    <a href="scenery.html"><li>园区风水</li></a>
+                    <a href="lookout.html"><li>园区景观</li></a>
+                    <a href="tomb.html"><li style="">墓型</li></a>
+                    <a href="innovate.html"><li>节地创新</li></a>
+                    <a href="news.html"><li style=" background-color: #4FCFDC;color: #fff">资讯</li></a>
+                    <a href="abut.html"><li style="">联系我们</li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fixed-top">
+    <div class="container nav-index">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 logo-box"><img src="images/logo.png" alt="" width="100%" id="logopicture" style="margin-top: 8px;"></div>
+            <div class="hidden-xs col-sm-12 col-md-9 col-lg-9 nav-box">
+                <ul class="nav">
+                    <a href="index.html"><li style="width: 11%;">首页</li></a>
+                    <a href="webcolem.html"><li style="width: 15%">走进九宫山</li></a>
+                    <a href="scenery.html"><li>园区风水</li></a>
+                    <a href="lookout.html"><li>园区景观</li></a>
+                    <a href="tomb.html"><li style="width: 11%">墓型</li></a>
+                    <a href="innovate.html"><li>节地创新</li></a>
+                    <a href="news.html"><li style="width: 11%; background-color: #4FCFDC;color: #fff">资讯</li></a>
+                    <a href="abut.html"><li style="margin-right: 0">联系我们</li></a>
+                </ul>
+            </div>
+            <div class="col-xs-2 hidden-sm hidden-md hidden-lg" style="float: right;">
+                <div class="navv nav-hamburger pull-right">
+                    <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+                    <ul class="dropdown-menu pull-right menub">
+                        <a href="index.html"><li style="">首页</li></a>
+                        <a href="webcolem.html"><li style="">走进九宫山</li></a>
+                        <a href="scenery.html"><li>园区风水</li></a>
+                        <a href="lookout.html"><li>园区景观</li></a>
+                        <a href="tomb.html"><li style="">墓型</li></a>
+                        <a href="innovate.html"><li>节地创新</li></a>
+                        <a href="news.html"><li style=" background-color: #4FCFDC;color: #fff">资讯</li></a>
+                        <a href="abut.html"><li style="">联系我们</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="weizhi" style="margin-bottom: 20px;">
+    <div class="container nav-index">
+        <div class="row">
+            <p class="goin">你的位置：资讯><span id="yqje">陵园动态</span></p>
+        </div>
+    </div>
+</div>
+<div class="container nav-index">
+    <div class="row">
+        <!-- Nav tabs -->
+        <ul class="col-lg-3 col-md-3 col-sm-3 col-xs-12 goin-menu" role="tablist">
+            <a href="#home" aria-controls="home" role="tab" data-toggle="tab" style="text-decoration: none"><li role="presentation" class="jl-menu" style="background: #4FCFDC">陵园动态</li></a>
+            <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" style="text-decoration: none"><li role="presentation" class="jl-menu">最新资讯</li></a>
+            <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" style="text-decoration: none"><li role="presentation" class="jl-menu">礼仪服务</li></a>
+        </ul>
+        <!-- Tab panes -->
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 goin-jl tab-content" style="border:0;">
+            <div role="tabpanel" class="tab-pane active" id="home">
+                <p style="background: #F4F4F4;font-size: 18px;line-height: 50px;margin: 0 0 30px">陵园动态</p>
+               <div class="new-bos" style="display: block;">
+                    <a href="news_suk.html">
+                        <div class="dt-box">
+                            <div class="col-lg-5 dt-box-img"><img src="images/57.png" alt="" width="100%"></div>
+                            <div class="col-lg-7 dt-box-wz">
+                                <p style="text-align: left;font-size: 22px;margin: 30px 0;color: #000">九公山航拍视频</p>
+                                <div style="text-align: left;font-size: 20px;text-indent: 50px;color: #333">九公之地，处于京皇城正北，龙脉正统。北
+                                    倚燕山山脉，西倚太行山山脉，东临潮白河西临
+                                    永定河，其南北轴线与明古长城相交，先天风水
+                                    得天时地利之势，且势位至尊。 九公之名归......
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="news_suk_one.html">
+                        <div class="dt-box">
+                        <div class="col-lg-5 dt-box-img"><img src="images/57.png" alt="" width="100%"></div>
+                        <div class="col-lg-7 dt-box-wz">
+                            <p style="text-align: left;font-size: 22px;margin: 30px 0">九公山航拍视频</p>
+                            <div style="text-align: left;font-size: 20px;text-indent: 50px;color: #333">九公之地，处于京皇城正北，龙脉正统。北
+                                倚燕山山脉，西倚太行山山脉，东临潮白河西临
+                                永定河，其南北轴线与明古长城相交，先天风水
+                                得天时地利之势，且势位至尊。 九公之名归......
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+               <div class="new-bos">
+                    <a href="news_suk.html">
+                        <div class="dt-box">
+                            <div class="col-lg-5 dt-box-img"><img src="images/57.png" alt="" width="100%"></div>
+                            <div class="col-lg-7 dt-box-wz">
+                                <p style="text-align: left;font-size: 22px;margin: 30px 0;color: #000">长城纪念林航拍视频</p>
+                                <div style="text-align: left;font-size: 20px;text-indent: 50px;color: #333">九公之地，处于京皇城正北，龙脉正统。北
+                                    倚燕山山脉，西倚太行山山脉，东临潮白河西临
+                                    永定河，其南北轴线与明古长城相交，先天风水
+                                    得天时地利之势，且势位至尊。 九公之名归......
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="news_suk_one.html">
+                        <div class="dt-box">
+                            <div class="col-lg-5 dt-box-img"><img src="images/57.png" alt="" width="100%"></div>
+                            <div class="col-lg-7 dt-box-wz">
+                                <p style="text-align: left;font-size: 22px;margin: 30px 0">九公山航拍视频</p>
+                                <div style="text-align: left;font-size: 20px;text-indent: 50px;color: #333">九公之地，处于京皇城正北，龙脉正统。北
+                                    倚燕山山脉，西倚太行山山脉，东临潮白河西临
+                                    永定河，其南北轴线与明古长城相交，先天风水
+                                    得天时地利之势，且势位至尊。 九公之名归......
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+               <div class="new-bos">
+                    <a href="news_suk.html">
+                        <div class="dt-box">
+                            <div class="col-lg-5 dt-box-img"><img src="images/57.png" alt="" width="100%"></div>
+                            <div class="col-lg-7 dt-box-wz">
+                                <p style="text-align: left;font-size: 22px;margin: 30px 0;color: #000">九公山航拍视频</p>
+                                <div style="text-align: left;font-size: 20px;text-indent: 50px;color: #333">九公之地，处于京皇城正北，龙脉正统。北
+                                    倚燕山山脉，西倚太行山山脉，东临潮白河西临
+                                    永定河，其南北轴线与明古长城相交，先天风水
+                                    得天时地利之势，且势位至尊。 九公之名归......
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="news_suk_one.html">
+                        <div class="dt-box">
+                            <div class="col-lg-5 dt-box-img"><img src="images/57.png" alt="" width="100%"></div>
+                            <div class="col-lg-7 dt-box-wz">
+                                <p style="text-align: left;font-size: 22px;margin: 30px 0">九公山航拍视频</p>
+                                <div style="text-align: left;font-size: 20px;text-indent: 50px;color: #333">九公之地，处于京皇城正北，龙脉正统。北
+                                    倚燕山山脉，西倚太行山山脉，东临潮白河西临
+                                    永定河，其南北轴线与明古长城相交，先天风水
+                                    得天时地利之势，且势位至尊。 九公之名归......
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+               <div class="new-bos">
+                    <a href="news_suk.html">
+                        <div class="dt-box">
+                            <div class="col-lg-5 dt-box-img"><img src="images/57.png" alt="" width="100%"></div>
+                            <div class="col-lg-7 dt-box-wz">
+                                <p style="text-align: left;font-size: 22px;margin: 30px 0;color: #000">九公山航拍视频</p>
+                                <div style="text-align: left;font-size: 20px;text-indent: 50px;color: #333">九公之地，处于京皇城正北，龙脉正统。北
+                                    倚燕山山脉，西倚太行山山脉，东临潮白河西临
+                                    永定河，其南北轴线与明古长城相交，先天风水
+                                    得天时地利之势，且势位至尊。 九公之名归......
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="news_suk_one.html">
+                        <div class="dt-box">
+                            <div class="col-lg-5 dt-box-img"><img src="images/57.png" alt="" width="100%"></div>
+                            <div class="col-lg-7 dt-box-wz">
+                                <p style="text-align: left;font-size: 22px;margin: 30px 0">九公山航拍视频</p>
+                                <div style="text-align: left;font-size: 20px;text-indent: 50px;color: #333">九公之地，处于京皇城正北，龙脉正统。北
+                                    倚燕山山脉，西倚太行山山脉，东临潮白河西临
+                                    永定河，其南北轴线与明古长城相交，先天风水
+                                    得天时地利之势，且势位至尊。 九公之名归......
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+               <div class="weiz-box">
+                    <button class="zuo">上一页</button>
+                    <div class="yema">1</div>
+                    <button class="you">下一页</button>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="profile">
+                <p style="background: #F4F4F4;font-size: 18px;line-height: 60px;margin: 0 0 30px;text-align: left;text-indent:  20px;">最新资讯</p>
+               <div class="new-bos1" style="display: block">
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>同心启新程 泰爱谱华华章</h1>
+                            <h4 style="margin-bottom: 8%">同心启新程，泰爱谱华章。8月22日下午，泰康二十周年庆
+                                典大会暨泰康 保险 集团获批揭牌仪式在人民大会堂万人礼堂隆
+                                重举行。 公司董事、监事、股东代表、管委会成员和受邀著名
+                                企...
+                            </h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.1.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>多维度布局医养产业 陈东升详解泰康新商业模式</h1>
+                            <h4 style="margin-bottom: 8%">老龄化人口急剧增长的背后，蕴藏着医养产业的巨大市场
+                                空间。手握动辄千亿资金的保险公司，正以加速之势投身医养
+                                实体项目，多维度深挖商机。 7月18日，长三角地区首个由保
+                                险公司...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.2.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>“激发个人潜能、聚焦团队力量”</h1>
+                            <h4 style="margin-bottom: 8%">草树知春不久归， 百般红紫斗芳菲。春天是播种希望，放
+                                飞梦想的季节，在明媚的春光里，九公山长城纪念林在美丽的
+                                九公山长城脚下开展了凝心聚力、聚焦目标、冲刺业绩的户外
+                                团队...
+                            </h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.3.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>九公山创新形象 展示国家公墓服务标准</h1>
+                            <h4 style="margin-bottom: 8%">2016年4月4日，向着国家公墓服务标准进发的北京市九公
+                                山长城纪念林，在园区内举办了三军仪仗队欢迎及换枪仪式这
+                                些来自中国人民解放军三军仪仗队的退役老兵，均受过国家级
+                                专业...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.4.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>飒爽英姿、气宇轩昂——九公山三军仪仗队</h1>
+                            <h4 style="margin-bottom: 8%">4月3日，九公山长城纪念林为前来园区祭扫的新老客户展
+                                示了三军仪仗队欢迎仪式和换枪仪式。活动的礼仪兵都是来自
+                                中国人民解放军三军仪仗队的退役老兵，均经过国家级专业训
+                                练...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.5.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>2016年九公山长城纪念林清明文化月活动</h1>
+                            <h4 style="margin-bottom: 8%">孝道观念是中国文化的重要组成部分，数千年来，中国人
+                                无论富贵贫贱，都深深受到礼教的影响。...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.6.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>祭奠与前行—— 烈士纪念日的思考</h1>
+                            <h4 style="margin-bottom: 8%">1949年9月30日，人民英雄纪念碑的奠基日，1949年10月1
+                                日，中华人民共和国成立。由此国家今年将9月30日确定为烈士
+                                纪念日。2014年的9月30日，是国家公布的第一个烈士纪念日。
+                                全国各地纪...
+                            </h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.7.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>向烈士致敬——九公山推出免费科技殡葬产品</h1>
+                            <h4 style="margin-bottom: 8%">9月29日，在九公山长城纪念林铁军纪念园举办的祭奠先烈暨铁
+                                军纪念坛揭幕仪式，由中共北京市委党史研究室、北京社会福利
+                                促进会、北京新四军暨华中抗日根据地研究会、北京市九公...
+                            </h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.8.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>祭奠抗日英烈暨铁军纪念坛揭幕仪式</h1>
+                            <h4 style="margin-bottom: 8%">在国家烈士纪念日前夕，为纪念中国人民抗日战争暨世界
+                                反法西斯战争胜利70周年，由北京市委党研室、北京社会福利
+                                促进会、北京新四军研究会、北京九公山长城纪念林有限公司
+                                联合...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.9.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+               </div>
+                <div class="new-bos1">
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>同心启新程 泰爱谱华华章</h1>
+                            <h4 style="margin-bottom: 8%">同心启新程，泰爱谱华章。8月22日下午，泰康二十周年庆
+                                典大会暨泰康 保险 集团获批揭牌仪式在人民大会堂万人礼堂隆
+                                重举行。 公司董事、监事、股东代表、管委会成员和受邀著名
+                                企...
+                            </h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.1.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>多维度布局医养产业 陈东升详解泰康新商业模式</h1>
+                            <h4 style="margin-bottom: 8%">老龄化人口急剧增长的背后，蕴藏着医养产业的巨大市场
+                                空间。手握动辄千亿资金的保险公司，正以加速之势投身医养
+                                实体项目，多维度深挖商机。 7月18日，长三角地区首个由保
+                                险公司...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.2.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>“激发个人潜能、聚焦团队力量”</h1>
+                            <h4 style="margin-bottom: 8%">草树知春不久归， 百般红紫斗芳菲。春天是播种希望，放
+                                飞梦想的季节，在明媚的春光里，九公山长城纪念林在美丽的
+                                九公山长城脚下开展了凝心聚力、聚焦目标、冲刺业绩的户外
+                                团队...
+                            </h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.3.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>九公山创新形象 展示国家公墓服务标准</h1>
+                            <h4 style="margin-bottom: 8%">2016年4月4日，向着国家公墓服务标准进发的北京市九公
+                                山长城纪念林，在园区内举办了三军仪仗队欢迎及换枪仪式这
+                                些来自中国人民解放军三军仪仗队的退役老兵，均受过国家级
+                                专业...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.4.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>飒爽英姿、气宇轩昂——九公山三军仪仗队</h1>
+                            <h4 style="margin-bottom: 8%">4月3日，九公山长城纪念林为前来园区祭扫的新老客户展
+                                示了三军仪仗队欢迎仪式和换枪仪式。活动的礼仪兵都是来自
+                                中国人民解放军三军仪仗队的退役老兵，均经过国家级专业训
+                                练...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.5.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>2016年九公山长城纪念林清明文化月活动</h1>
+                            <h4 style="margin-bottom: 8%">孝道观念是中国文化的重要组成部分，数千年来，中国人
+                                无论富贵贫贱，都深深受到礼教的影响。...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.6.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>祭奠与前行—— 烈士纪念日的思考</h1>
+                            <h4 style="margin-bottom: 8%">1949年9月30日，人民英雄纪念碑的奠基日，1949年10月1
+                                日，中华人民共和国成立。由此国家今年将9月30日确定为烈士
+                                纪念日。2014年的9月30日，是国家公布的第一个烈士纪念日。
+                                全国各地纪...
+                            </h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.7.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>向烈士致敬——九公山推出免费科技殡葬产品</h1>
+                            <h4 style="margin-bottom: 8%">9月29日，在九公山长城纪念林铁军纪念园举办的祭奠先烈暨铁
+                                军纪念坛揭幕仪式，由中共北京市委党史研究室、北京社会福利
+                                促进会、北京新四军暨华中抗日根据地研究会、北京市九公...
+                            </h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.8.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>祭奠抗日英烈暨铁军纪念坛揭幕仪式</h1>
+                            <h4 style="margin-bottom: 8%">在国家烈士纪念日前夕，为纪念中国人民抗日战争暨世界
+                                反法西斯战争胜利70周年，由北京市委党研室、北京社会福利
+                                促进会、北京新四军研究会、北京九公山长城纪念林有限公司
+                                联合...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_two.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.9.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                </div>
+                <div class="weiz-box1">
+                    <button class="zuo1">上一页</button>
+                    <div class="yema1">1</div>
+                    <button class="you1">下一页</button>
+                </div>
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="messages">
+                <p style="background: #F4F4F4;font-size: 18px;line-height: 60px;margin: 0 0 30px;text-align: left;text-indent:  20px;">礼仪服务</p>
+                <div class="new-bos2" style="display: block;">
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>落地仪式</h1>
+                            <h4 style="margin-bottom: 8%">遵循人性化、个性化葬礼礼仪设计及“合礼”的服务，完
+                                全满足各个阶层逝者殡葬礼仪的需求。九公山坚持让“逝者得
+                                其所，生者了无憾”的服务宗旨，遵循“逝者为尊，逝者为亲”
+                                的经营理...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_four.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.1.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>随葬品</h1>
+                            <h4 style="margin-bottom: 8%">随葬品寄托了生者对于逝者的祝福之意，也承载着后嗣对
+                                于先人的追思之情。随葬品在中华传统殡葬文化传承和发展的
+                                过程中融合了其中的道德观念、处世...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_three.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.2.jpg" alt="" width="100%"height="100%">
+                        </div>
+                </div>
+                </div>
+                <div class="new-bos2">
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>落地仪式</h1>
+                            <h4 style="margin-bottom: 8%">遵循人性化、个性化葬礼礼仪设计及“合礼”的服务，完
+                                全满足各个阶层逝者殡葬礼仪的需求。九公山坚持让“逝者得
+                                其所，生者了无憾”的服务宗旨，遵循“逝者为尊，逝者为亲”
+                                的经营理...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_four.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.1.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                    <div class="cul-sec">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cul-sec-letf" style="padding: 0;margin-left: 3%">
+                            <h1>随葬品</h1>
+                            <h4 style="margin-bottom: 8%">随葬品寄托了生者对于逝者的祝福之意，也承载着后嗣对
+                                于先人的追思之情。随葬品在中华传统殡葬文化传承和发展的
+                                过程中融合了其中的道德观念、处世...</h4>
+                            <h4 style="float: left;line-height: 5%;text-indent: 0;">2016-08-25</h4>
+                            <a href="news_suk_three.html" target="_blank"><h4 style="float: right;line-height:5%;text-indent: 0;color:#4FCFDC;">阅读全文</h4></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 cul-sec-right" style="padding: 0">
+                            <img src="picture/6-2.2.jpg" alt="" width="100%"height="100%">
+                        </div>
+                    </div>
+                </div>
+                <div class="weiz-box2">
+                    <button class="zuo2">上一页</button>
+                    <div class="yema2">1</div>
+                    <button class="you2">下一页</button>
+                </div>
+        </div>
+
+    </div>
+        <div class="spread-slide" style="margin-bottom: 40px;">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" style="float: left;padding: 30px 0 24px 44px;"><img src="images/2.png" alt=""></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="float: right">
+                <form action="" method="get" class="telephone">
+                    <input type="text" placeholder="输入你的姓名" class="iphone">
+                    <input type="text" placeholder="输入你的手机号">
+                </form>
+                <a href="javascript://"><button>立即预约</button></a>
+            </div>
+        </div>
+</div>
+
+</div>
+<div class="footer_top">
+    <div class="container nav-index">
+        <div class="row">
+            <ul class="footer_box">
+                <li class="footer_logo col-xs-3 col-md-3 col-lg-3">
+                    <img src="images/logo.png" class="logo_fo" width="100%" height="100%">
+                </li>
+                <li>
+                    <i></i>
+                </li>
+                <li class="yq col-xs-12 col-sm-3 col-md-5 col-lg-5" style="font-size: 16px;">
+                    友情链接:
+                    <br>
+                    <span style="margin-left: 20px"><a href="javascript:" style="font-size: 14px;">泰康之家</a></span>
+                    <span><a href="javascript:" style="font-size: 14px;">罗浮净土人文纪念园</a></span>
+                    <span><a href="javascript:" style="font-size: 14px;">爱佑汇</a></span>
+                    <span><a href="javascript:" style="font-size: 14px;">墓地价格</a></span>
+                </li>
+                <li>
+                    <i></i>
+                </li>
+                <li class="yq col-xs-12 col-sm-3 col-md-3 col-lg-3" style="font-size: 12px;;">
+                    园区联系电话：&nbsp;010-61631265
+                    <br>
+                    <br>
+                    <p>园区地址：&nbsp;北京市怀柔区渤海镇兴隆城</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer_bottom">
+    <div class="container nav-index">
+        <div class="row">
+            <ul class="footer_bt">
+                <li class="na_va"><a href="javascript:" style="font-size: 16px;">远景规划</a></li>
+                <!--<span class="lt"></span>-->
+                <li class="na_va"><a href="javascript:" style="font-size: 16px;">远景规划</a></li>
+                <!--<span class="lt"></span>-->
+                <li class="na_va"><a href="javascript:" style="font-size: 16px;">园区风水</a></li>
+                <!--<span class="lt"></span>-->
+                <li class="na_va"><a href="javascript:" style="font-size: 16px;">图书馆壁葬</a></li>
+                <!--<span class="lt"></span>-->
+                <li class="na_va"><a href="javascript:" style="font-size: 16px;">特色园区</a></li>
+                <!--<span class="lt"></span>-->
+                <li class="na_va"><a href="javascript:" style="font-size: 16px;">九公祭堂</a></li>
+                <!--<span class="lt"></span>-->
+                <li class="na_va" style="border:0"><a href="javascript:" style="font-size: 16px;">网站地图</a></li>
+            </ul>
+            <p>版权所有 2016北京九公山长城纪念林有限公司</p>
+            <p>京ICP备14009697号-3</p>
+        </div>
+    </div>
+</div>
+<ul class="hidden-xs cbl">
+    <a href="javascript://"><li><img src="images/20.png" alt=""></li></a>
+    <a href="javascript://"><li><img src="images/21.png" alt=""></li></a>
+    <a href="reservation.html"><li><img src="images/22.png" alt=""></li></a>
+    <a href="javascript://"><li id="book"><img src="images/23.png" alt=""><p>请拨打九公山预约热线：42423432423423</p></li></a>
+    <a href="javascript://"><li id="topp"><img src="images/24.png" alt=""></li></a>
+</ul>
+<div class="visible-xs fh-top" >
+    <img src="images/01.png" alt="" width="100%">
+</div>
+</body>
+<script src="js/style.js"></script>
+<script>
+    fanye();
+    fanye1()
+    fanye2()
+</script>
+</html>

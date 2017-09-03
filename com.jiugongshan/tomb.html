@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>墓形</title>
+    <link rel="shortcut icon" href="picture/icon.png">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/jquery-1.11.2.js"></script>
+    <script src="js/script.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container nav-index">
+    <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 logo-box"><img src="images/logo.png" alt="" width="100%" id="logopicture" style="margin-top: 8px;"></div>
+        <div class="hidden-xs col-sm-12 col-md-9 col-lg-9 nav-box">
+            <ul class="nav">
+                <a href="index.html"><li style="width: 11%;">首页</li></a>
+                <a href="webcolem.html"><li style="width: 15%">走进九宫山</li></a>
+                <a href="scenery.html"><li>园区风水</li></a>
+                <a href="lookout.html"><li>园区景观</li></a>
+                <a href="tomb.html"><li style="width: 11%; background-color: #4FCFDC;color: #fff">墓型</li></a>
+                <a href="innovate.html"><li>节地创新</li></a>
+                <a href="news.html"><li style="width: 11%">资讯</li></a>
+                <a href="abut.html"><li style="margin-right: 0">联系我们</li></a>
+            </ul>
+        </div>
+        <div class="col-xs-2 hidden-sm hidden-md hidden-lg" style="float: right;">
+            <div class="navv nav-hamburger pull-right">
+                <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+                <ul class="dropdown-menu pull-right menub">
+                    <a href="index.html"><li style="">首页</li></a>
+                    <a href="webcolem.html"><li style="">走进九宫山</li></a>
+                    <a href="scenery.html"><li>园区风水</li></a>
+                    <a href="lookout.html"><li>园区景观</li></a>
+                    <a href="tomb.html"><li style=" background-color: #4FCFDC;color: #fff">墓型</li></a>
+                    <a href="innovate.html"><li>节地创新</li></a>
+                    <a href="news.html"><li style="">资讯</li></a>
+                    <a href="abut.html"><li style="">联系我们</li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fixed-top">
+    <div class="container nav-index">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 logo-box"><img src="images/logo.png" alt="" width="100%" id="logopicture" style="margin-top: 8px;"></div>
+            <div class="hidden-xs col-sm-12 col-md-9 col-lg-9 nav-box">
+                <ul class="nav">
+                    <a href="index.html"><li style="width: 11%;">首页</li></a>
+                    <a href="webcolem.html"><li style="width: 15%">走进九宫山</li></a>
+                    <a href="scenery.html"><li>园区风水</li></a>
+                    <a href="lookout.html"><li>园区景观</li></a>
+                    <a href="tomb.html"><li style="width: 11%; background-color: #4FCFDC;color: #fff">墓型</li></a>
+                    <a href="innovate.html"><li>节地创新</li></a>
+                    <a href="news.html"><li style="width: 11%">资讯</li></a>
+                    <a href="abut.html"><li style="margin-right: 0">联系我们</li></a>
+                </ul>
+            </div>
+            <div class="col-xs-2 hidden-sm hidden-md hidden-lg" style="float: right;">
+                <div class="navv nav-hamburger pull-right">
+                    <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+                    <ul class="dropdown-menu pull-right menub">
+                        <a href="index.html"><li style="">首页</li></a>
+                        <a href="webcolem.html"><li style="">走进九宫山</li></a>
+                        <a href="scenery.html"><li>园区风水</li></a>
+                        <a href="lookout.html"><li>园区景观</li></a>
+                        <a href="tomb.html"><li style=" background-color: #4FCFDC;color: #fff">墓型</li></a>
+                        <a href="innovate.html"><li>节地创新</li></a>
+                        <a href="news.html"><li style="">资讯</li></a>
+                        <a href="abut.html"><li style="">联系我们</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="weizhi" style="margin-bottom: 20px;">
+    <div class="container nav-index">
+        <div class="row">
+            <p class="goin">你的位置：墓形><span id="yqje">特色园区</span></p>
+        </div>
+    </div>
+</div>
+<div class="container nav-index">
+    <div class="row">
+        <!-- Nav tabs -->
+        <ul class="col-lg-3 col-md-3 col-sm-3 col-xs-12 goin-menu" role="tablist">
+            <a href="#home" aria-controls="home" role="tab" data-toggle="tab" style="text-decoration: none"><li role="presentation" class="jl-menu" style="background: #4FCFDC">特色园区</li></a>
+            <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" style="text-decoration: none"><li role="presentation" class="jl-menu">购墓流程</li></a>
+            <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" style="text-decoration: none"><li role="presentation" class="jl-menu">预约看墓</li></a>
+            <a href="#messages1" aria-controls="messages1" role="tab" data-toggle="tab" style="text-decoration: none"><li role="presentation" class="jl-menu">价目总览</li></a>
+        </ul>
+        <!-- Tab panes -->
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 goin-jl tab-content" style="border:0;">
+            <div role="tabpanel" class="tab-pane active" id="home">
+                <ul class="select">
+                    <li class="select-list" style="padding-bottom:2px;">
+                        <dl id="select1">
+                            <dt>墓形园区：</dt>
+                            <dd class="select-all selected" style=""><a href="#">全部</a></dd>
+                            <dd><a href="#">铁军纪念园</a></dd>
+                            <dd><a href="#">功泽园</a></dd>
+                            <dd><a href="#">福泽园</a></dd>
+                            <dd><a href="#">承泽园</a></dd>
+                            <dd><a href="#">恩泽园</a></dd>
+                            <dd><a href="#">天主教墓园</a></dd>
+                        </dl>
+                    </li>
+                    <li class="select-list" style="background: #fff">
+                        <dl id="select2">
+                            <dt>墓形价格：</dt>
+                            <dd class="select-all selected"><a href="#">全部</a></dd>
+                            <dd><a href="#">2万以内</a></dd>
+                            <dd><a href="#">2-5万</a></dd>
+                            <dd><a href="#">5-10万</a></dd>
+                            <dd><a href="#">10万以上</a></dd>
+                        </dl>
+                    </li>
+                    <li class="select-list" style="padding-bottom:2px;">
+                        <dl id="select3">
+                            <dt>墓形穴位：</dt>
+                            <dd class="select-all selected"><a href="#">全部</a></dd>
+                            <dd><a href="#">单穴</a></dd>
+                            <dd><a href="#">双穴</a></dd>
+                            <dd><a href="#">多人穴</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+                <div class="tomb-nav" style="margin-left: 0">
+                    <a href="tomb_suk.html" style="text-decoration: none">
+                        <img src="picture/4.1.jpg" alt="" width="100%">
+                        <p style="margin: 12px 0;font-size: 18px;">铁军纪念园</p>
+                        <p style="margin: 12px 0;font-size: 16px;">参考价格：<span style="color:#FE0918;">88000 - 25800</span></p>
+                    </a>
+                </div>
+                <div class="tomb-nav">
+                    <a href="tomb_suk_one.html" style="text-decoration: none">
+                        <img src="picture/4.2.jpg" alt="" width="100%">
+                        <p style="margin: 12px 0;font-size: 18px;">功泽园</p>
+                        <p style="margin: 12px 0;font-size: 16px;">参考价格：<span style="color:#FE0918;">88000 - 25800</span></p>
+                    </a>
+                </div>
+                <div class="tomb-nav">
+                    <a href="tomb_suk_two.html" style="text-decoration: none">
+                        <img src="picture/4.3.jpg" alt="" width="100%">
+                        <p style="margin: 12px 0;font-size: 18px;">福泽园</p>
+                        <p style="margin: 12px 0;font-size: 16px;">参考价格：<span style="color:#FE0918;">88000 - 25800</span></p>
+                    </a>
+                </div>
+                <div class="tomb-nav" style="margin-left: 0">
+                    <a href="tomb_suk_three.html" style="text-decoration: none">
+                        <img src="picture/4.4.jpg" alt="" width="100%">
+                        <p style="margin: 12px 0;font-size: 18px;">承泽园</p>
+                        <p style="margin: 12px 0;font-size: 16px;">参考价格：<span style="color:#FE0918;">88000 - 25800</span></p>
+                    </a>
+                </div>
+                <div class="tomb-nav">
+                    <a href="tomb_suk_four.html" style="text-decoration: none">
+                        <img src="picture/4.5.jpg" alt="" width="100%">
+                        <p style="margin: 12px 0;font-size: 18px;">恩泽园</p>
+                        <p style="margin: 12px 0;font-size: 16px;">参考价格：<span style="color:#FE0918;">88000 - 2588800</span></p>
+                    </a>
+                </div>
+                <div class="tomb-nav">
+                    <a href="tomb_suk_five.html" style="text-decoration: none">
+                        <img src="picture/4.6.jpg" alt="" width="100%">
+                        <p style="margin: 12px 0;font-size: 18px;">天主教墓园</p>
+                        <p style="margin: 12px 0;font-size: 16px;">参考价格：<span style="color:#FE0918;">88000 - 25800</span></p>
+                    </a>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane zang" id="profile">
+                <p>购墓流程</p>
+                <h6 style="width:100%;overflow:hidden;text-align:right;font-size: 14px;">2016-04-13</h6>
+                <h3 style="margin-top: 40px;font-size: 24px;">一、选择墓地</h3>
+                <div class="goin-nr" style="margin-top:0px;">根据所选墓地，由专业景观设计师协助客户设计墓地景观，协助客户从多种式样的纪念碑中选择纪念碑，纪念碑由专业设计师及雕塑家自行设计及制作，可根据所选择墓地服务完全定制。从设计独特的木石到个性化真人大小的雕塑均可以选择制作。</div>
+                <h3 style="margin-top: 40px;font-size: 24px;">二、缴纳定金，签订合同</h3>
+                <div class="goin-nr" style="margin-top:0px;"> 礼仪师提供专业建议，客户通过现场参观后确定所选墓地.签订规范的购墓合同客户通过支付定金确保墓位有效性.</div>
+                <h3 style="margin-top: 40px;font-size: 24px;">三、选择建坟墓式</h3>
+                <div class="goin-nr" style="margin-top:0px;"> 根据所选墓地，由专业景观设计师协助客户设计墓地景观，协助客户从多种式样的纪念碑中选择纪念碑，纪念碑由专业设计师及雕塑家自行设计及制作，可根据所选择墓地服务完全定制。从设计独特的木石到个性化真人大小的雕塑均可以选择制作。</div>
+                <h3 style="margin-top: 40px;font-size: 24px;">四、现场施工</h3>
+                <div class="goin-nr" style="margin-top:0px;"> 客户支付全部款项后即刻开始制作纪念碑</div>
+                <h3 style="margin-top: 40px;font-size: 24px;">五、确定安放时间和礼仪</h3>
+                <div class="goin-nr" style="margin-top:0px;"> 客户可选择墓葬日期，提供多种墓葬仪式,包括佛教及其他宗教仪式，提供其他相关服务,如提供鲜花及供品。</div>
+                <h3 style="margin-top: 40px;font-size: 24px;">六、落葬仪式</h3>
+                <div class="goin-nr" style="margin-top:0px;">客户可选择落葬仪式的种类，如落英之礼、式神之礼、纳清明之礼以及定制仪式.</div>
+                <h3 style="margin-top: 40px;font-size: 24px;">七、提供墓葬后服务</h3>
+                <div class="goin-nr" style="margin-top:0px;">提供墓地的持续维护服务及进行定期检查及在需要时随时进行维修纪念碑，提供若干墓葬后服务,如为客户组织纪念活动及销售鲜花供品</div>
+                <p style="margin: 40px 0;text-align: left;">购墓须知</p>
+                <p style="margin: 40px 0;text-align: left;">1、平日请提前7天预约。</p>
+                <p style="margin: 40px 0;text-align: left;">2、冬至、清明当月请提前15天预约。</p>
+                <p style="margin: 40px 0;text-align: left;">3、办理落葬手续约需时0.5小时，若当天落葬人数较多则可能需要等候，如您需在指定时间落葬，敬请提前2小时以上办理。</p>
+                <p style="margin: 40px 0;text-align: left;">4、墓权证遗失的，需先补办墓权证方可办理落葬手续。</p>
+                <p style="margin: 40px 0;text-align: left;">5、权益人直系亲属前来办理的，还需提供办理人与权益人的关系证明（派出所开具证明或户口本原件）。</p>
+                <p style="margin: 40px 0;text-align: left;">6、权益人指定人员前来办理的，需提供权益人签发的授权委托书。</p>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="messages">
+                  <p>预约看墓</p>
+                  <div class="goin-nr" style="margin-top:0px;">九公山长城纪念林为您提供免费的看墓班车服务。 您无需支付任何费用，即使
+                      您看墓结束后没有决定进行购买，九公山的专车也将免费将您平安送回家。 请您提
+                      前一天拨打预约电话010-64445335进行预约，以便园区工作人员可以准备电瓶车、
+                      宣传册等接待您。</div>
+                  <form class="form-inline">
+                    <div class="form-group order" style="width: 50%">
+                        <label for="exampleInputName2" style="font-size: 16px;">你的名字</label>
+                        <input type="text" class="form-control" id="exampleInputName2">
+                    </div>
+                    <div class="form-group order" style="width: 50%">
+                        <label for="exampleInputEmail2" style="font-size: 16px;">联系电话</label>
+                        <input type="email" class="form-control" id="exampleInputEmail211">
+                    </div>
+                    <div class="form-group order" style="width: 50%">
+                        <label for="exampleInputEmail2" style="font-size: 16px;">预约人数</label>
+                        <input type="email" class="form-control" id="exampleInputEmail21">
+                    </div>
+                    <div class="form-group order" style="width: 50%">
+                        <label for="exampleInputEmail2" style="font-size: 16px;">预约日期</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="form-group order1" style="width: 100%">
+                        <label for="exampleInputEmail2" style="width: 13%!important;font-size: 16px;" >备注日期</label>
+                        <input type="email" class="form-control" id="exampleInputEmail2">
+                    </div>
+                    <button type="submit" class="tj">提交</button>
+                    <h5 class="yyue-jw">预约信息提交后</h5>
+                    <h5 class="yyue-jw" style="margin-top: 4px;margin-bottom: 40px;">服务人员会在24小时之内与你联系，请保持联系方式畅通，谢谢</h5>
+                </form>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="messages1">
+                <table width="100%">
+                    <caption align="top" style="font-size: 18px!important;">价目总览</caption>
+                    <caption align="top">功泽园</caption>
+                    <tr style="background-color: #f4f4f4;">
+                        <td style="width:12%;">园区</td>
+                        <td style="width:12%;">碑型</td>
+                        <td style="width:12%;">价格</td>
+                        <td style="width:12%;">单位</td>
+                        <td style="width:18%;">占地面积m²</td>
+                        <td style="width:18%;">包含内容</td>
+                        <td style="width:18%;">备注</td>
+                    </tr>
+                    <tr>
+                        <td>A区树葬</td>
+                        <td></td>
+                        <td>元/套</td>
+                        <td>1</td>
+                        <td style="text-align:left;font-size: 16px;">常青树一课</br>35×45卧碑一块</br>草坪</td>
+                    </tr>
+                    <tr style="background: #f4f4f4;">
+                        <td>A区草坪</td>
+                        <td></td>
+                        <td>28800--</br>458800</td>
+                        <td>元/套</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td style="font-size:16px;text-align: left;padding-left: 5px;">李银巧墓地下面</br>4.58万/平方米</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">B</br>区</br>草</br>坪</td>
+                        <td>小官冒碑</td>
+                        <td>38800</td>
+                        <td>元/套</td>
+                        <td>1</td>
+                        <td>标准双穴碑</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>兰花碑</td>
+                        <td>49800</td>
+                        <td>元/套</td>
+                        <td>1</td>
+                        <td>标准双穴碑</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>雕花碑头碑</td>
+                        <td>58800</td>
+                        <td>元/套</td>
+                        <td>1</td>
+                        <td>标准双穴碑</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>B区草坪</td>
+                        <td></td>
+                        <td>28800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>C区草坪</td>
+                        <td></td>
+                        <td>28800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>D区草坪</td>
+                        <td></td>
+                        <td>38800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">D</br>区</br>立</br>碑</td>
+                        <td>辉煌</td>
+                        <td>41800</td>
+                        <td>元/套</td>
+                        <td>1</td>
+                        <td>标准双穴碑</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background:#f4f4f4">
+                        <td>天圆地方</td>
+                        <td>45800</td>
+                        <td>元/套</td>
+                        <td>1</td>
+                        <td>标准双穴碑</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>凤凰园</br>草坪</td>
+                        <td></td>
+                        <td>28800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>碑亭</td>
+                        <td></td>
+                        <td>2880000</td>
+                        <td>元/m²</td>
+                        <td>40</td>
+                        <td>家族墓汉白玉</br>六角石亭</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <caption align="top">福泽园</caption>
+                    <tr style="background-color: #f4f4f4;">
+                        <td style="width:12%;">园区</td>
+                        <td style="width:12%;">碑型</td>
+                        <td style="width:12%;">价格</td>
+                        <td style="width:12%;">单位</td>
+                        <td style="width:18%;">占地面积m²</td>
+                        <td style="width:18%;">包含内容</td>
+                        <td style="width:18%;">备注</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">A</br>区</br>树</br>葬</br>二</br>区</td>
+                        <td>标准树葬</td>
+                        <td>18000</td>
+                        <td>元/套</td>
+                        <td>1</td>
+                        <td style="text-align: left;font-size: 16px;padding-left: 5px;">常青树一课</br>35×45卧碑一块</br>草坪</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4;">
+                        <td>加大树葬</td>
+                        <td>28800</td>
+                        <td>元/套</td>
+                        <td>1.2</td>
+                        <td style="text-align: left;font-size: 16px;padding-left: 5px;">常青树一课</br>35×45卧碑一块</br>标准地棺一套 草坪</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>标准树葬</td>
+                        <td>41800</td>
+                        <td>元/套</td>
+                        <td>2.2</td>
+                        <td style="text-align: left;font-size: 16px;padding-left: 5px;">45×65卧碑一块</br>标准地棺一套</br>草坪</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4;">
+                        <td>标准树葬</td>
+                        <td>45800</td>
+                        <td>元/套</td>
+                        <td>2.5</td>
+                        <td style="text-align: left;font-size: 16px;padding-left: 5px;">45×65卧碑一块</br>标准地棺一套</br>草坪</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>A区树葬</br>一区</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>售完</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>A区草坪</td>
+                        <td></td>
+                        <td>28800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">B</br>区</br>立</br>碑</td>
+                        <td>日月天坛</td>
+                        <td>28800</td>
+                        <td>元/套</td>
+                        <td>0.6</td>
+                        <td>常青树一课</br>35×45卧碑一块</br>草坪</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>五福临门</td>
+                        <td>28800</td>
+                        <td>元/套</td>
+                        <td>0.8</td>
+                        <td>标准双穴碑</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>冰清玉洁</td>
+                        <td>33800</td>
+                        <td>元/套</td>
+                        <td>0.8</td>
+                        <td>标准双穴碑</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>玉清莲花</td>
+                        <td>36800</td>
+                        <td>元/套</td>
+                        <td>1</td>
+                        <td>标准双穴碑</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>梅花魂</td>
+                        <td>36800</td>
+                        <td>元/套</td>
+                        <td>1</td>
+                        <td>标准双穴碑</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background:#f4f4f4">
+                        <td>山西黑立碑</td>
+                        <td>售完</td>
+                        <td>元/套</td>
+                        <td>1</td>
+                        <td>标准双穴碑</td>
+                        <td>7套空余</br>未安装碑</td>
+                    </tr>
+                    <tr>
+                        <td>B区草坪</td>
+                        <td></td>
+                        <td>28800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>A区自然</br>石景观</td>
+                        <td>景观石</td>
+                        <td>36800</td>
+                        <td>元/套</td>
+                        <td>0.8</td>
+                        <td>标准双穴卧碑</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>A区草坪</td>
+                        <td>黑/红书碑</td>
+                        <td>29800</td>
+                        <td>元/套</td>
+                        <td>0.6</td>
+                        <td>标准双穴卧碑</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>C区自然</br>石景观</td>
+                        <td></td>
+                        <td>22800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>公益碑</td>
+                        <td></td>
+                        <td>7800</td>
+                        <td>元/套</td>
+                        <td>0.8</td>
+                        <td>标准双穴卧碑</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>碑亭</td>
+                        <td></td>
+                        <td>2280000</td>
+                        <td>元/m²</td>
+                        <td>40</td>
+                        <td>家族六角石亭</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <caption align="top">承泽园</caption>
+                    <tr style="background-color: #f4f4f4;">
+                        <td style="width:12%;">园区</td>
+                        <td style="width:12%;">碑型</td>
+                        <td style="width:12%;">价格</td>
+                        <td style="width:12%;">单位</td>
+                        <td style="width:18%;">占地面积m²</td>
+                        <td style="width:18%;">包含内容</td>
+                        <td style="width:18%;">备注</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="5">立</br>碑</br>区</td>
+                        <td>官帽碑</td>
+                        <td>108000</td>
+                        <td>元/套</td>
+                        <td>2.5</td>
+                        <td>标准双穴立碑</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4;">
+                        <td>竹韵碑</td>
+                        <td>108000</td>
+                        <td>元/套</td>
+                        <td>2.5</td>
+                        <td>标准双穴立碑</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>百荷花碑</td>
+                        <td>108000</td>
+                        <td>元/套</td>
+                        <td>2</td>
+                        <td>标准双穴立碑</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4;">
+                        <td>紫藤碑</td>
+                        <td>108000</td>
+                        <td>元/套</td>
+                        <td>2</td>
+                        <td>标准双穴立碑</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>汉白玉</br>围栏碑 </td>
+                        <td>108000</td>
+                        <td>元/套</td>
+                        <td>2</td>
+                        <td>标准双穴立碑</td>
+                        <td>目前没有现货</td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>草坪区</td>
+                        <td></td>
+                        <td>28800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>壁葬区</td>
+                        <td></td>
+                        <td>36800</td>
+                        <td>元/套</td>
+                        <td>0.8</td>
+                        <td>多人穴</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>碑亭</td>
+                        <td></td>
+                        <td>2880000</td>
+                        <td>元/套</td>
+                        <td>40</td>
+                        <td>家族墓石亭</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <caption align="top">恩泽园</caption>
+                    <tr style="background-color: #f4f4f4;">
+                        <td style="width:12%;">园区</td>
+                        <td style="width:12%;">碑型</td>
+                        <td style="width:12%;">价格</td>
+                        <td style="width:12%;">单位</td>
+                        <td style="width:18%;">占地面积m²</td>
+                        <td style="width:18%;">包含内容</td>
+                        <td style="width:18%;">备注</td>
+                    </tr>
+                    <tr>
+                        <td>草坪区</td>
+                        <td></td>
+                        <td>39800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4;">
+                        <td>碑亭</td>
+                        <td></td>
+                        <td>2880000</td>
+                        <td>元/套</td>
+                        <td>40</td>
+                        <td>家族墓碑亭</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <caption align="top">铁军园</caption>
+                    <tr style="background-color: #f4f4f4;">
+                        <td style="width:12%;">园区</td>
+                        <td style="width:12%;">碑型</td>
+                        <td style="width:12%;">价格</td>
+                        <td style="width:12%;">单位</td>
+                        <td style="width:18%;">占地面积m²</td>
+                        <td style="width:18%;">包含内容</td>
+                        <td style="width:18%;">备注</td>
+                    </tr>
+                    <tr>
+                        <td>标一区</td>
+                        <td>红旗碑</td>
+                        <td>88000</td>
+                        <td>元/套</td>
+                        <td>4.5</td>
+                        <td style="font-size: 16px;">标准双穴碑绿化</td>
+                        <td rowspan="2" style="font-size: 16px;">加6000元可</br>做6人家族墓</td>
+                    </tr>
+                    <tr style="background: #f4f4f4;">
+                        <td>标二区</td>
+                        <td>红旗碑</td>
+                        <td>88000</td>
+                        <td>元/套</td>
+                        <td>4.5</td>
+                        <td style="font-size: 16px;">标准双穴碑绿化</td>
+                    </tr>
+                    <tr>
+                        <td>南自选区</td>
+                        <td></td>
+                        <td>25800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td style="font-size: 18px;">地价</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>北自</br>一二区</td>
+                        <td></td>
+                        <td>25800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td style="font-size: 18px;">地价</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>老红军区</td>
+                        <td></td>
+                        <td>25800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>北四区</td>
+                        <td></td>
+                        <td>25800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>北三区</td>
+                        <td></td>
+                        <td>25800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>碑亭</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <caption align="top">善寿园</caption>
+                    <tr style="background-color: #f4f4f4;">
+                        <td style="width:12%;">园区</td>
+                        <td style="width:12%;">碑型</td>
+                        <td style="width:12%;">价格</td>
+                        <td style="width:12%;">单位</td>
+                        <td style="width:18%;">占地面积m²</td>
+                        <td style="width:18%;">包含内容</td>
+                        <td style="width:18%;">备注</td>
+                    </tr>
+                    <tr>
+                        <td>草坪区</td>
+                        <td></td>
+                        <td>49800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td style="font-size: 16px;text-align: left;padding-left: 5px;">需设计艺术碑型</br>没有明显界限</br>8平米起售</td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <caption align="top">圣安园</caption>
+                    <tr style="background-color: #f4f4f4;">
+                        <td style="width:12%;">园区</td>
+                        <td style="width:12%;">碑型</td>
+                        <td style="width:12%;">价格</td>
+                        <td style="width:12%;">单位</td>
+                        <td style="width:18%;">占地面积m²</td>
+                        <td style="width:18%;">包含内容</td>
+                        <td style="width:18%;">备注</td>
+                    </tr>
+                    <tr>
+                        <td>温馨谷</td>
+                        <td></td>
+                        <td>68000</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td style="font-size:16px;text-align: left;padding-left: 5px;">设计艺术碑型</br>家族墓</td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>北自选区</td>
+                        <td></td>
+                        <td>39800</td>
+                        <td>元/m²</td>
+                        <td>自选</td>
+                        <td>地价</td>
+                        <td style="font-size: 16px;text-align: left;padding-left: 5px;">设计艺术碑型</br>家族墓</br>八平米起售</td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <caption align="top">九公祭堂</caption>
+                    <tr style="background-color: #f4f4f4;">
+                        <td style="width:12%;">园区</td>
+                        <td style="width:12%;">碑型</td>
+                        <td style="width:12%;">价格</td>
+                        <td style="width:12%;">单位</td>
+                        <td style="width:18%;">占地面积m²</td>
+                        <td style="width:18%;">包含内容</td>
+                        <td style="width:18%;">备注</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">龛位</td>
+                        <td>双龛</td>
+                        <td>25800</td>
+                        <td>元/m²</td>
+                        <td></td>
+                        <td>龛位</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>单龛</td>
+                        <td>25800</td>
+                        <td>元/m²</td>
+                        <td></td>
+                        <td>龛位</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <caption align="top">图书馆</caption>
+                    <tr style="background-color: #f4f4f4;">
+                        <td style="width:12%;">园区</td>
+                        <td style="width:12%;">碑型</td>
+                        <td style="width:12%;">价格</td>
+                        <td style="width:12%;">单位</td>
+                        <td style="width:18%;">占地面积m²</td>
+                        <td style="width:18%;">包含内容</td>
+                        <td style="width:18%;">备注</td>
+                    </tr>
+                    <tr>
+                        <td>龛位</td>
+                        <td>图书架</td>
+                        <td>28000</td>
+                        <td>元/套</td>
+                        <td></td>
+                        <td>单龛位</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background: #f4f4f4">
+                        <td>图书</td>
+                        <td>单本图书</td>
+                        <td>18000</td>
+                        <td>元/套</td>
+                        <td></td>
+                        <td>单本书</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="spread-slide" style="margin-bottom: 40px;">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" style="float: left;padding: 30px 0 24px 44px;"><img src="images/2.png" alt=""></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="float: right">
+                <form action="" method="get" class="telephone">
+                    <input type="text" placeholder="输入你的姓名" class="iphone">
+                    <input type="text" placeholder="输入你的手机号">
+                </form>
+                <a href="javascript://"><button>立即预约</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer_top">
+    <div class="container nav-index">
+        <div class="row">
+            <ul class="footer_box">
+                <li class="footer_logo col-xs-3 col-md-3 col-lg-3">
+                    <img src="images/logo.png" class="logo_fo" width="100%" height="100%">
+                </li>
+                <li>
+                    <i></i>
+                </li>
+                <li class="yq col-xs-12 col-sm-3 col-md-5 col-lg-5" style="font-size: 16px;">
+                    友情链接:
+                    <br>
+                    <span style="margin-left: 20px"><a href="javascript:" style="font-size: 14px;">泰康之家</a></span>
+                    <span><a href="javascript:" style="font-size: 14px;">罗浮净土人文纪念园</a></span>
+                    <span><a href="javascript:" style="font-size: 14px;">爱佑汇</a></span>
+                    <span><a href="javascript:" style="font-size: 14px;">墓地价格</a></span>
+                </li>
+                <li>
+                    <i></i>
+                </li>
+                <li class="yq col-xs-12 col-sm-3 col-md-3 col-lg-3" style="font-size: 12px;;">
+                    园区联系电话：&nbsp;010-61631265
+                    <br>
+                    <br>
+                    <p>园区地址：&nbsp;北京市怀柔区渤海镇兴隆城</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer_bottom">
+    <div class="container nav-index">
+        <div class="row">
+            <ul class="footer_bt">
+                <li class="na_va"><a href="javascript:" style="font-size: 16px;">远景规划</a></li>
+                <!--<span class="lt"></span>-->
+                <li class="na_va"><a href="javascript:" style="font-size: 16px;">远景规划</a></li>
+                <!--<span class="lt"></span>-->
+                <li class="na_va"><a href="javascript:" style="font-size: 16px;">园区风水</a></li>
+                <!--<span class="lt"></span>-->
+                <li class="na_va"><a href="javascript:" style="font-size: 16px;">图书馆壁葬</a></li>
+                <!--<span class="lt"></span>-->
+                <li class="na_va"><a href="javascript:" style="font-size: 16px;">特色园区</a></li>
+                <!--<span class="lt"></span>-->
+                <li class="na_va"><a href="javascript:" style="font-size: 16px;">九公祭堂</a></li>
+                <!--<span class="lt"></span>-->
+                <li class="na_va" style="border:0"><a href="javascript:" style="font-size: 16px;">网站地图</a></li>
+            </ul>
+            <p>版权所有 2016北京九公山长城纪念林有限公司</p>
+            <p>京ICP备14009697号-3</p>
+        </div>
+    </div>
+</div>
+<ul class="hidden-xs cbl">
+    <a href="javascript://"><li><img src="images/20.png" alt=""></li></a>
+    <a href="javascript://"><li><img src="images/21.png" alt=""></li></a>
+    <a href="reservation.html"><li><img src="images/22.png" alt=""></li></a>
+    <a href="javascript://"><li id="book"><img src="images/23.png" alt=""><p>请拨打九公山预约热线：42423432423423</p></li></a>
+    <a href="javascript://"><li id="topp"><img src="images/24.png" alt=""></li></a>
+
+</ul>
+<div class="visible-xs fh-top" >
+    <img src="images/01.png" alt="" width="100%">
+</div>
+</body>
+  <script src="js/style.js"></script>
+</html>
